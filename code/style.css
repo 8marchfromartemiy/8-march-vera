@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+*::-webkit-scrollbar {
+    width: 12px;           
+  }
+*::-webkit-scrollbar-track {
+    background: rgb(121, 121, 121);   
+    border-radius: 13px;     
+  }
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(125, 125, 125);  
+    border-radius: 13px;      
+    border: 3px solid rgb(174, 174, 174); 
+  }
+@font-face {
+    font-family: crushider;
+    src: url(../fonts/crushider/fonts/crushider.ttf);
+}
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+.container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gif-8march {
+    max-height: 110vh;
+}
+.text-to {
+    font-size: 6rem;
+    font-family: crushider;
+    padding: 0 1.3rem;
+    margin-top: 1rem;
+    line-height: 5rem;
+}
+.gif-block .container {
+    margin-top: 13rem;
+}
+@keyframes animation {
+    
+}
